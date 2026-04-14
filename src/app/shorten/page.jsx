@@ -68,7 +68,7 @@ const page = () => {
           toast.success("Short URL generated successfully!", toastOptions);
           setShortUrl("");
           setLongUrl("");
-          setgenerated(`${process.env.NEXT_PUBLIC_HOST}/${shortUrl}`);
+          setgenerated(`https://bitlinks-3rjr.vercel.app/${shortUrl}`);
         })
         .catch((error) =>
           toast.error("Something went wrong :", error, toastOptions),
