@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@layer base {
+  .w-text {
+    @apply font-[cursive] italic text-lg;
+  }
+}
