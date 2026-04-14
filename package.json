@@ -1,0 +1,28 @@
+{
+  "name": "bitlinks",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "biome check",
+    "format": "biome format --write"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.1",
+    "mongodb": "^7.1.1",
+    "next": "16.2.2",
+    "next-auth": "^4.24.13",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "react-icons": "^5.6.0",
+    "react-toastify": "^11.0.5"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.2.0",
+    "@tailwindcss/postcss": "^4",
+    "babel-plugin-react-compiler": "1.0.0",
+    "tailwindcss": "^4"
+  }
+}
